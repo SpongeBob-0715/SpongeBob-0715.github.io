@@ -19,13 +19,56 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
-        <tag>test</tag>
+        <tag>Hexo操作</tag>
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2022/06/03/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[]]></content>
+    <title>三阶魔方还原法</title>
+    <url>/2022/06/06/%E9%AD%94%E6%96%B9/</url>
+    <content><![CDATA[<div align="center"><h2>魔方7步还原法</h2></div>`
+
+<span id="more"></span>
+
+<h3 id="将每个面用字母表示"><a href="#将每个面用字母表示" class="headerlink" title="将每个面用字母表示"></a>将每个面用字母表示</h3><img src="/2022/06/06/%E9%AD%94%E6%96%B9/定义字母.png" width="500" height="300">
+
+<p>​		<strong>R: 右侧面顺时针旋转，R’: 右侧面逆时针旋转，R2：右面顺时针两次（其余面同理）</strong></p>
+<h3 id="一-底面十字"><a href="#一-底面十字" class="headerlink" title="一.底面十字"></a>一.底面十字</h3><h3 id="二-底面还原"><a href="#二-底面还原" class="headerlink" title="二.底面还原"></a>二.底面还原</h3><p>​		前两步骤 <del>太简单</del> 没有固定的公式，熟能生巧。</p>
+<h3 id="三-中间层还原（分为两种情况）"><a href="#三-中间层还原（分为两种情况）" class="headerlink" title="三.中间层还原（分为两种情况）"></a>三.中间层还原（分为两种情况）</h3><h4 id="向左还原"><a href="#向左还原" class="headerlink" title="向左还原"></a>向左还原</h4><img src="/2022/06/06/%E9%AD%94%E6%96%B9/中层向左.png" width="300" height="300">
+
+<p>​		公式为 ：U’ L’ U L U F U’ F’</p>
+<h4 id="向右还原"><a href="#向右还原" class="headerlink" title="向右还原"></a>向右还原</h4><img src="/2022/06/06/%E9%AD%94%E6%96%B9/中层向右.png" width="300" height="300">
+
+<p>​		公式为 ：U R U’ R’ U’ F’ U F</p>
+<h3 id="四-顶面十字"><a href="#四-顶面十字" class="headerlink" title="四.顶面十字"></a>四.顶面十字</h3><img src="/2022/06/06/%E9%AD%94%E6%96%B9/顶十字.png" width="600" height="200">
+
+<p>​		公式 ：F R U R’ U’ F’</p>
+<p>​		在这里需要注意顶部色块朝向</p>
+<h3 id="五-顶面还原"><a href="#五-顶面还原" class="headerlink" title="五.顶面还原"></a>五.顶面还原</h3><p>​		这一步的重点是一条小鱼，如果上一步过后直接出现小鱼，定是以下两种情况：</p>
+<img src="/2022/06/06/%E9%AD%94%E6%96%B9/小鱼.png" width="400" height="300">
+
+<p>​		如果没有出现小鱼呢，运用公式 R U’ U’ R’ U’ R U’ R’：</p>
+<img src="/2022/06/06/%E9%AD%94%E6%96%B9/小鱼2.png" width="700" height="300">
+
+<p>​		我的记法是：“上右右下右上右下”记好记，“上”代表右侧面向上拧（顺时针），“右”代表顶面向右拧（逆时针），“下”代表右侧面向下拧。如果忘记了魔方朝向应该是什么样，就一直重复公式5，知道出现很重要的那条小鱼为止。</p>
+<h3 id="六：顶层中间还原"><a href="#六：顶层中间还原" class="headerlink" title="六：顶层中间还原"></a>六：顶层中间还原</h3><p>  这一步一共只有三种情况：<br>  <strong>1、没有一个面上角块是对的</strong><br>  <strong>2、有一个面角块是对的</strong><br>  <strong>3、四个面角块都是对的。</strong></p>
+<img src="/2022/06/06/%E9%AD%94%E6%96%B9/顶中.png" width="700" height="200">
+
+<p>​		公式 ：R B’ R F2 R’ B R F2 R2</p>
+<h3 id="七：顶层还原"><a href="#七：顶层还原" class="headerlink" title="七：顶层还原"></a>七：顶层还原</h3><p>  这步一共也是只有三种情况：<br>  <strong>1、四个棱块都不对</strong><br>  <strong>2、有一个棱块是对的</strong><br>  <strong>3、四个棱块都是对的。</strong></p>
+<img src="/2022/06/06/%E9%AD%94%E6%96%B9/最后.png" width="600" height="350">
+
+<p>​		</p>
+<p>​		公式   :  R U’ R U R U R U’ R’ U’ R2</p>
+]]></content>
+      <categories>
+        <category>休闲</category>
+      </categories>
+      <tags>
+        <tag>魔方</tag>
+      </tags>
   </entry>
 </search>
